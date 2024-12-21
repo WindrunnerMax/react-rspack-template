@@ -1,6 +1,7 @@
 export {
   cs,
   DateTime,
+  debounce,
   getUniqueId,
   isArray,
   isEmptyValue,
@@ -9,9 +10,8 @@ export {
   isObject,
   isPlainNumber,
   isString,
-  storage,
+  Storage,
+  // FireFox https://github.com/lodash/lodash/issues/3126
+  throttle,
   TSON,
 } from "laser-utils";
-export { default as debounce } from "lodash-es/debounce";
-// Compat: FireFox https://github.com/lodash/lodash/issues/3126
-export { default as throttle } from "lodash-es/throttle";

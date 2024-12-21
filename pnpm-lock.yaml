@@ -115,8 +115,8 @@ importers:
   packages/utils:
     dependencies:
       laser-utils:
-        specifier: 0.0.5-alpha.10
-        version: 0.0.5-alpha.10
+        specifier: 0.0.5-alpha.16
+        version: 0.0.5-alpha.16
       lodash-es:
         specifier: 4.17.21
         version: 4.17.21
@@ -5857,8 +5857,8 @@ packages:
     resolution: {integrity: sha512-RTSoaUAfLvpR357vWzAz/50Q/BmHfmE6ETSWfutT0AJiw10e6CmcdYRQJlLRd95B53D0Y2aD1jSxD3V3ySF+PA==}
     dev: true
 
-  /laser-utils@0.0.5-alpha.10:
-    resolution: {integrity: sha512-nZmDTXC2AYyll+vSJV00a0NN8JsGHD48NTZeTx54lWAsnAx2Bj36h39Vj9q9kHKxvA9q3VQg8I4Y5E9xb8y+Zw==}
+  /laser-utils@0.0.5-alpha.16:
+    resolution: {integrity: sha512-tOnm19OPtia40VrU49QB81/qAiwhWzPeG9+xxDjTnmJYtTt6HFEs+Vp03TqaiyqZyvYuKgXmHOBtN/Jtj/L1Nw==}
     dev: false
 
   /launch-editor@2.6.1:
