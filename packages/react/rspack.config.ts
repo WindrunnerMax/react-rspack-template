@@ -8,7 +8,7 @@ const isDev = process.env.NODE_ENV === "development";
 
 /**
  * @type {import("@rspack/cli").Configuration}
- * @document https://www.rspack.dev/
+ * @link https://www.rspack.dev/
  */
 const config: Configuration = {
   context: __dirname,

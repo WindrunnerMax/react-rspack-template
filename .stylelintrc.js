@@ -1,5 +1,16 @@
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+  extends: ["stylelint-config-standard"],
+  overrides: [
+    {
+      files: ["*.scss", "**/*.scss"],
+      extends: ["stylelint-config-standard", "stylelint-config-sass-guidelines"],
+    },
+    {
+      files: ["*.less", "**/*.less"],
+      customSyntax: "postcss-less",
+      extends: ["stylelint-config-standard"],
+    },
+  ],
   ignoreFiles: [
     "**/node_modules/**/*.*",
     "**/dist/**/*.*",

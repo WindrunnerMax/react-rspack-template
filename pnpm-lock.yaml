@@ -44,6 +44,9 @@ importers:
       postcss:
         specifier: 8.3.3
         version: 8.3.3
+      postcss-less:
+        specifier: 6.0.0
+        version: 6.0.0(postcss@8.3.3)
       prettier:
         specifier: 2.4.1
         version: 2.4.1
@@ -6610,6 +6613,15 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+    dev: true
+
+  /postcss-less@6.0.0(postcss@8.3.3):
+    resolution: {integrity: sha512-FPX16mQLyEjLzEuuJtxA8X3ejDLNGGEG503d2YGZR5Ask1SpDN8KmZUMpzCvyalWRywAn1n1VOA5dcqfCLo5rg==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      postcss: ^8.3.5
+    dependencies:
+      postcss: 8.3.3
     dev: true
 
   /postcss-media-query-parser@0.2.3:
