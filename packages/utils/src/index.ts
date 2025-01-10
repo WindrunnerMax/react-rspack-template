@@ -11,7 +11,6 @@ export {
   isPlainNumber,
   isString,
   Storage,
-  // FireFox https://github.com/lodash/lodash/issues/3126
   throttle,
   TSON,
 } from "laser-utils";

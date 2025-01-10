@@ -18,7 +18,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "laser-utils": "0.0.5-alpha.16",
+    "laser-utils": "0.0.5-alpha.22",
     "lodash-es": "4.17.21"
   },
   "devDependencies": {
